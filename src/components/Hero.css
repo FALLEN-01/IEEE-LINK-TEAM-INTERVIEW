@@ -248,10 +248,13 @@
     .hero {
         min-height: 90vh;
         padding-top: 120px;
+        width: 100%;
+        max-width: 100vw;
     }
 
     .hero-content {
         padding: 0 var(--spacing-md);
+        max-width: 100%;
     }
 
     .hero-details {

@@ -184,10 +184,18 @@
     }
 
     .features-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+        gap: var(--spacing-md);
+        padding: 0;
+    }
+
+    .feature-card {
+        aspect-ratio: auto;
+        padding: var(--spacing-lg);
     }
 
     .about-stats {
         grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 }
