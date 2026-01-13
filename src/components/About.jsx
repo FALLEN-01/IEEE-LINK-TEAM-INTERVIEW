@@ -101,7 +101,7 @@ const About = () => {
                         </div>
                         <div className="stat-card">
                             <div className="stat-number">95%</div>
-                            <div className="stat-label">Satisfaction Rate</div>
+                            <div className="stat-label">Success Rate</div>
                         </div>
                         <div className="stat-card">
                             <div className="stat-number">20+</div>
