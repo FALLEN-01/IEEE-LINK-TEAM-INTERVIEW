@@ -56,9 +56,16 @@ const Navigation = () => {
     <nav className={`navigation ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="nav-content">
-          <div className="nav-logo">
-            <span className="logo-ieee">IEEE</span>
-            <span className="logo-link">LINK</span>
+          <div className="nav-logos">
+            <div className="nav-logo" onClick={() => scrollToSection('home')}>
+              <img src="/assets/ieee-link-logo.png" alt="IEEE LINK" className="nav-logo-img" />
+            </div>
+            <div className="nav-logo nav-logo-center">
+              <img src="/assets/ieee-kerala-section-logo.png" alt="IEEE Kerala Section" className="nav-logo-img" />
+            </div>
+            <div className="nav-logo">
+              <img src="/assets/ieee-logo.png" alt="IEEE" className="nav-logo-img ieee-logo-small" />
+            </div>
           </div>
 
           {/* Desktop Navigation */}

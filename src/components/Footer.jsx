@@ -84,7 +84,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} IEEE LINK. All rights reserved.</p>
+                    <p>&copy; 2025 IEEE LINK. All rights reserved.</p>
                     <div className="footer-bottom-links">
                         <a href="#privacy">Privacy Policy</a>
                         <span>•</span>

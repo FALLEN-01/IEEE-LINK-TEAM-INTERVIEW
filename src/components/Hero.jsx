@@ -25,20 +25,15 @@ const Hero = () => {
 
             <div className="container">
                 <div className="hero-content">
-                    <div className="hero-badge animate-fadeInUp">
-                        <span className="badge-icon">⚡</span>
-                        <span>IEEE LINK Presents</span>
-                    </div>
-
-                    <h1 className="hero-title animate-fadeInUp" style={{ animationDelay: '0.1s' }}>
+                    <h1 className="hero-title animate-fadeInUp">
                         LINK CAMP <span className="text-gradient">2025</span>
                     </h1>
 
-                    <p className="hero-subtitle animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
+                    <p className="hero-subtitle animate-fadeInUp" style={{ animationDelay: '0.1s' }}>
                         Empowering the Next Generation of Innovators
                     </p>
 
-                    <div className="hero-details animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
+                    <div className="hero-details animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
                         <div className="detail-item">
                             <svg className="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                 <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
@@ -77,7 +72,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className="hero-cta animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
+                    <div className="hero-cta animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
                         <button onClick={scrollToRegistration} className="btn btn-primary btn-large">
                             Register Now
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -90,7 +85,7 @@ const Hero = () => {
                         </button>
                     </div>
 
-                    <div className="hero-stats animate-fadeInUp" style={{ animationDelay: '0.5s' }}>
+                    <div className="hero-stats animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
                         <div className="stat-item">
                             <span className="stat-number">2</span>
                             <span className="stat-label">Days</span>
