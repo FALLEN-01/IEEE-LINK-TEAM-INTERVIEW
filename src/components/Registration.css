@@ -243,10 +243,12 @@
         word-wrap: break-word;
         overflow-wrap: break-word;
         max-width: 100%;
+        text-align: center;
     }
 
     .registration-intro {
         max-width: 100%;
+        text-align: center;
     }
 
     .info-cards {
@@ -261,6 +263,10 @@
     .form-card {
         max-width: 100%;
         box-sizing: border-box;
+    }
+
+    .benefits-section {
+        padding: var(--spacing-md);
     }
 }
 

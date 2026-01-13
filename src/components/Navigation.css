@@ -250,7 +250,9 @@
     }
 
     .nav-logos-spread {
-        padding: 0 10px;
+        padding: 0 var(--spacing-sm);
+        justify-content: space-around;
+        gap: var(--spacing-sm);
     }
 
     .nav-logos {
