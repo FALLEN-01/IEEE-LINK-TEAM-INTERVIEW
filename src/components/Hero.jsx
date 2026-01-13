@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="container">
                 <div className="hero-content">
                     <h1 className="hero-title animate-fadeInUp">
-                        LINK CAMP <span className="text-gradient">2025</span>
+                        LINK CAMP <span>2025</span>
                     </h1>
 
                     <p className="hero-subtitle animate-fadeInUp" style={{ animationDelay: '0.1s' }}>
